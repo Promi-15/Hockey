@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey</title>
+<!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<!-- ui -->    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- icon -->
+
+<script src="https://kit.fontawesome.com/b1f0f1b0ef.js" crossorigin="anonymous"></script>
+
+
+<style>
+    *{
+        font-family: 'Manrope', sans-serif;
+    }
+    
+</style>
+</head>
+<body>
+    <header>
+        <div class="navbar bg-base-100 flex items-center">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base">
+                  <li><a class="text-[#FF4240]">
+                    Home
+                  </a></li>
+                  <li>
+                    <a>About</a>
+                  </li>
+                  <li>
+                    <a>Pages</a>
+                  </li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-2xl font-bold">Hockey<span class="text-[#FF4240]">'</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-base">
+                <li><a class="text-[#FF4240] ">
+                    Home
+                  </a></li>
+                  <li>
+                    <a>About</a>
+                  </li>
+                  <li>
+                    <a>Pages</a>
+                  </li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end gap-3 lg:gap-10">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              <a class="btn btn-primary text-white bg-orange-600 border-0">Get Ticket</a>
+            </div>
+          </div>
+    </header>
+
+    <section>
+        <div class="carousel w-full my-10 ">
+           
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full h-[500px] m-1 lg:mx-8 " />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a> 
+                  <a href="#slide2" class="btn btn-circle  bg-black text-white">❯</a>
+                </div>
+
+                <div class="bg-black absolute p-5 mx-5 mt-[520px] lg:w-[450px] lg:mt-[320px] lg:ml-[850px] lg:p-[20px] rounded-xl">
+                    <h1 class="text-white text-xl font-bold space-y-4">Meet all the heroes from the field</h1>
+                    <br>
+                    <p class="text-white font-thin text-gray-500">Encounter remarkable field heroes, each exemplifying courage, resilience, and unwavering commitment to positive impact.</p>
+                   </div>
+              </div>
+
+              <div id="slide2" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full h-[500px] m-1 lg:mx-8 " />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a> 
+                  <a href="#slide2" class="btn btn-circle  bg-black text-white">❯</a>
+                </div>
+
+                <div class="bg-black absolute p-5 mx-5 mt-[520px] lg:w-[450px] lg:mt-[320px] lg:ml-[850px] lg:p-[20px] rounded-xl">
+                    <h1 class="text-white text-xl font-bold space-y-4">Meet all the heroes from the field</h1>
+                    <br>
+                    <p class="text-white font-thin text-gray-500">Encounter remarkable field heroes, each exemplifying courage, resilience, and unwavering commitment to positive impact.</p>
+                   </div>
+              </div> 
+              
+          
+           
+          </div>
+    </section>
+
+
+</body>
+</html>
